@@ -44,7 +44,7 @@ function popup_properties(prop) {
 // スタイルつき GeoJSON読み込み
 // 「./sample1.geojson」の部分を適宜変更してください。
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://dl.dropboxusercontent.com/s/lk8ho69vcqjtu4u/TEST.geojson', false);
+xhr.open('GET', './TEST.geojson', false);
 xhr.send(null);
 var sampledata = JSON.parse(xhr.responseText);
 
